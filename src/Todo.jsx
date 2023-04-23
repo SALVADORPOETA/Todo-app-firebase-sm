@@ -1,4 +1,4 @@
-import React, { useState } from 'react';
+import React from 'react';
 import { FaRegTrashAlt } from 'react-icons/fa';
 
 const style = {
@@ -24,3 +24,5 @@ const Todo = ({todo, toggleComplete, deleteTodo }) => {
 }
 
 export default Todo
+
+// Test
