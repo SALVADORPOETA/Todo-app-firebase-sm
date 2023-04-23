@@ -24,5 +24,3 @@ const Todo = ({todo, toggleComplete, deleteTodo }) => {
 }
 
 export default Todo
-
-// Test
