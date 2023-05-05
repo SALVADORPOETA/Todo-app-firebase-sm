@@ -77,7 +77,7 @@ function App() {
             type="text" 
             placeholder="Add Todo" 
           />
-          <button className={style.button} ><AiOutlinePlus size={30} /></button>
+          <button aria-label="add todo" className={style.button} ><AiOutlinePlus size={30} /></button>
         </form>
         <ul>
           {todos.map((todo, index)=>(
